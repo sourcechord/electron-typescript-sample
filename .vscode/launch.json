@@ -1,0 +1,37 @@
+{
+	"version": "0.1.0",
+	// List of configurations. Add new configurations or edit existing ones.
+	"configurations": [
+		{
+			// Name of configuration; appears in the launch configuration drop down menu.
+			"name": "Launch Electron App",
+			// Type of configuration.
+			"type": "node",
+			// Workspace relative or absolute path to the program.
+			"program": "main.js",
+			// Automatically stop program after launch.
+			"stopOnEntry": false,
+			// Command line arguments passed to the program.
+			"args": [],
+			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
+			"cwd": ".",
+			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
+			"runtimeExecutable": "node_modules\\.bin\\electron",
+			// Optional arguments passed to the runtime executable.
+			"runtimeArgs": [],
+			// Environment variables passed to the program.
+			"env": {},
+			// Use JavaScript source maps (if they exist).
+			"sourceMaps": false
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			// TCP/IP address. Default is "localhost".
+			"address": "localhost",
+			// Port to attach to.
+			"port": 5858,
+			"sourceMaps": false
+		}
+	]
+}

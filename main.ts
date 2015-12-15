@@ -1,6 +1,7 @@
-import app = require('app');
-import BrowserWindow = require('browser-window');
-require('crash-reporter').start();
+import * as electron from 'electron'; 
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
+electron.crashReporter.start();
 
 // メインウィンドウの参照をグローバルに持っておく。
 var mainWindow: GitHubElectron.BrowserWindow = null;
@@ -18,7 +19,7 @@ app.on('ready', function() {
   mainWindow = new BrowserWindow({ width: 800, height: 600 });
 
   // index.htmlを開く
-  mainWindow.loadUrl('file://' + __dirname + '/index.html');
+  mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   // ウィンドウが閉じられたら、ウィンドウへの参照を破棄する。
   mainWindow.on('closed', function() {

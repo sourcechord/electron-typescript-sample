@@ -5,14 +5,11 @@
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
   "installed": {
-    "github-electron/github-electron-main.d.ts": {
-      "commit": "af5b8275d1f2b92738b93fddabc461fc20c553a1"
+    "github-electron/github-electron.d.ts": {
+      "commit": "24e12a7af994afa2226af70fbfae0adc78736a9e"
     },
     "node/node.d.ts": {
-      "commit": "af5b8275d1f2b92738b93fddabc461fc20c553a1"
-    },
-    "github-electron/github-electron.d.ts": {
-      "commit": "af5b8275d1f2b92738b93fddabc461fc20c553a1"
+      "commit": "24e12a7af994afa2226af70fbfae0adc78736a9e"
     }
   }
 }

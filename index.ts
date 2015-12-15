@@ -1,7 +1,8 @@
-var remote = require('remote');
-var app = remote.require('app');
-var BrowserWindow = remote.require('browser-window');
-var dialog = remote.require('dialog');
+import * as electron from 'electron'; 
+const remote = electron.remote;
+const app = remote.require('app');
+const BrowserWindow = remote.require('browser-window');
+const dialog = remote.require('dialog');
 
 function hello(){
 	var options = {

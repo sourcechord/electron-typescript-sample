@@ -1,6 +1,6 @@
-import * as electron from 'electron'; 
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
+import * as electron from 'electron';
+import {app} from 'electron';
+import {BrowserWindow} from 'electron';
 electron.crashReporter.start();
 
 // メインウィンドウの参照をグローバルに持っておく。

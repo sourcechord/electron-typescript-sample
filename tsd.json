@@ -6,10 +6,10 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "github-electron/github-electron.d.ts": {
-      "commit": "24e12a7af994afa2226af70fbfae0adc78736a9e"
+      "commit": "f11e49cfb77f99678657ddfe5d43017849675c64"
     },
     "node/node.d.ts": {
-      "commit": "24e12a7af994afa2226af70fbfae0adc78736a9e"
+      "commit": "f11e49cfb77f99678657ddfe5d43017849675c64"
     }
   }
 }

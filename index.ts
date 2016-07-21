@@ -5,7 +5,7 @@ const BrowserWindow = remote.BrowserWindow;
 const dialog = remote.dialog;
 
 function hello(){
-	var options = {
+	var options: Electron.ShowMessageBoxOptions = {
 		title: 'ダイアログのタイトル',
 		type: 'info',
 		buttons: ['OK', 'Cancel'],

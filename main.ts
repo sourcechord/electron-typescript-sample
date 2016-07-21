@@ -1,9 +1,8 @@
 import * as electron from 'electron';
 import {app, BrowserWindow} from 'electron';
-electron.crashReporter.start();
 
 // メインウィンドウの参照をグローバルに持っておく。
-var mainWindow: GitHubElectron.BrowserWindow = null;
+var mainWindow: Electron.BrowserWindow = null;
 
 // すべてのウィンドウが閉じられた際の動作
 app.on('window-all-closed', function() {

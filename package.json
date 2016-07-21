@@ -7,13 +7,13 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "electron .",
-    "pack": "electron-packager . sample --out=dist --arch=x64 --platform=win32 --version=0.34.0 --overwrite --prune --ignore=dist --ignore=typings"
+    "pack": "electron-packager . sample --out=dist --arch=x64 --platform=win32 --version=1.2.8 --overwrite --prune --ignore=dist --ignore=typings"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.36.0",
-    "typescript": "^1.7.5"
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.8",
+    "typescript": "^1.8.10"
   }
 }

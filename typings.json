@@ -1,8 +1,0 @@
-{
-  "name": "electron_test",
-  "dependencies": {},
-  "globalDependencies": {
-    "github-electron": "registry:dt/github-electron#1.2.5+20160624085047",
-    "node": "registry:dt/node#6.0.0+20160720070758"
-  }
-}

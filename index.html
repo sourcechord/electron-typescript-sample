@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <script src="index.js"></script>
+    <script>window.exports = module.exports</script>
   </head>
   <body>
     <h1>Hello World!</h1>
     <hr/>
-    <button onclick="hello()">Show Message</button>
+    <button id="btnShowHello">Show Message</button>
+    <script>
+      // You can also require other files to run in this process
+      require('./index.js')
+    </script>
   </body>
 </html>

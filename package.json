@@ -7,7 +7,7 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "electron .",
-    "pack": "electron-packager . sample --out=dist --arch=x64 --platform=win32 --overwrite --prune --ignore=dist"
+    "pack": "electron-packager . sample --out=dist --arch=x64 --platform=win32 --electron-version=3.0.3 --overwrite --prune --ignore=dist"
   },
   "author": "",
   "license": "ISC",
